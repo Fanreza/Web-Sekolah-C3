@@ -55,7 +55,53 @@ nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a.active{
 }
 
 
+/* Responsive */
+@media screen and (min-width: 300px) and (max-width: 575px){
+	nav.navbar .container-fluid{
+		padding: 5px 10px;
+	}
 
+	nav.navbar .container-fluid .navbar-brand{
+		font-size: .7rem;
+	}
+
+	nav.navbar .container-fluid .navbar-brand img{
+		margin-right: 0;
+	}
+
+	nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a{
+		font-size: .8rem;
+	}
+}
+
+/* Responsive */
+@media screen and (min-width: 576px) and (max-width: 920px){
+	nav.navbar .container-fluid{
+		padding: 5px 30px;
+	}
+
+	nav.navbar .container-fluid .navbar-brand img{
+		margin-right: 0;
+	}
+
+	nav.navbar .container-fluid .navbar-brand{
+		font-size: .8rem;
+	 	margin: 0;
+	 	width: 30%;
+	}
+
+	nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a{
+		font-size: .8rem;
+		margin: 0 5px;
+		padding: 10px;
+	}
+
+}
 
 
 
@@ -243,8 +289,6 @@ section.first-content .right-content .scroll-indicator .scroll{
 section.first-content .right-content .scroll-indicator .scroll i{
 	font-size: 50px;
 }
-
-
 
 
 
