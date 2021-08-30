@@ -402,6 +402,7 @@ section.second-content  .group-card .group .card-image{
 
 section.second-content  .group-card .group .card-image .image{
 	width: 50%;
+	padding-top: 20px;
 }
 
 section.second-content  .group-card .group .card-image .image img{
@@ -411,7 +412,7 @@ section.second-content  .group-card .group .card-image .image img{
 
 section.second-content  .group-card .group .card-image .text{
 	width: 100%;
-	padding-top: 20px;
+	padding: 20px 10px 0;
 	text-align: center;
 }
 
