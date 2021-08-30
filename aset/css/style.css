@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+
+/* Navbar */
+nav.navbar{
+	background-color: #fff;
+}
+
+nav.navbar .container-fluid{
+	padding: 5px 50px;
+	transition: .5s;
+}
+
+nav.navbar .container-fluid *{
+	transition: .2s;
+}
+
+nav.navbar .container-fluid .navbar-brand{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+nav.navbar .container-fluid .navbar-brand img{
+	margin-right: 10px;
+}
+
+nav.navbar .container-fluid .navbar-brand{
+	color: #28166F !important;
+	font-weight: 700;
+}
+
+nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav{
+	margin-left: auto;
+}
+
+nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a{
+	color: #28166F !important;
+	padding: 10px 15px;
+	margin: 0 10px; 
+	transition: .5s;
+}
+
+nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a:hover,
+nav.navbar .container-fluid #navbarNavAltMarkup .navbar-nav a.active{
+	background-color: #28166F !important;
+	color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jumbotron */
+section.jumbotron{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+section.jumbotron .left-content{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+section.jumbotron .left-content .content{
+	padding-left: 50px;
+}
+
+section.jumbotron .left-content .text,
+section.jumbotron .left-content .head{
+	width: 100%;
+}
+
+section.jumbotron .left-content .head h1{
+	color: #28166F;
+	font-weight: 700 !important;
+	font-size: 55px;
+}
+
+section.jumbotron .left-content .head h1 span{
+	color: #2F89FC;
+}
+
+section.jumbotron .left-content .text{
+	color: #40514E;
+	margin-top: 20px;
+}
+
+section.jumbotron .left-content .more a{
+	margin-top: 20px;
+	background-color: #28166F;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 50px;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+section.jumbotron .left-content .more a:hover{
+	text-decoration: underline;
+}
+
+
+/*section.jumbotron .right-content{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	background-color: red;
+}
+
+section.jumbotron .right-content .content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.jumbotron .right-content .content .image img{
+	width: 50%;
+	height: 60%;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* First Content */
+section.first-content{
+	width: 100%;
+	display: flex;
+}
+
+section.first-content .left-content{
+	width: 50%;
+}
+
+section.first-content .left-content .image{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section.first-content .left-content .image img{
+	width: 80%;
+	height: 500px;
+	filter: brightness(50%);
+}
+
+section.first-content .right-content{
+	width: 50%;
+	text-align: right;
+}
+
+section.first-content .right-content .content{
+	padding: 30px 50px 0;
+}
+
+section.first-content .right-content .head{
+	text-align: right;
+}
+
+section.first-content .right-content .head h1{
+	color: #28166F;
+	font-weight: 700 !important;
+	font-size: 55px;
+}
+
+section.first-content .right-content .head h1 span{
+	color: #2F89FC;
+}
+
+section.first-content .right-content .text{
+	color: #40514E;
+	margin-top: 20px;
+}
+
+section.first-content .right-content .scroll-indicator{
+	display: inline-block;
+}
+
+section.first-content .right-content .scroll-indicator .more{
+	margin-top: 20px;
+	background-color: #28166F;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 50px;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+section.first-content .right-content .scroll-indicator .scroll{
+	display: flex;
+	justify-content: center;
+}
+
+section.first-content .right-content .scroll-indicator .scroll i{
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bidang Section */
+section.second-content{
+	width: 100%;
+	margin-top: 100px;
+}
+
+section.second-content .eskul{
+	margin-top: 100px;
+}
+
+section.second-content h1.head{
+	text-align: center;
+	font-weight: 800;
+	color: #40514E;
+}
+
+section.second-content .slider .carousel-inner{
+	margin-top: 50px;
+}
+
+section.second-content .slider .carousel-inner .carousel-item{
+	text-align: center;
+}
+
+section.second-content .slider .carousel-inner .carousel-item .group-card{
+	display: flex;
+	flex: auto;
+	justify-content: center;
+}
+
+section.second-content .slider .carousel-inner .carousel-item .card-image{
+	display: inline-block;
+	margin: 0 2%;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 100%;
+}
+
+section.second-content .slider .carousel-inner .carousel-item .card-image .image{
+	height: 50%;
+}
+
+section.second-content .slider .carousel-inner .carousel-item .card-image img{
+	width: 80%;
+	height: 80%;
+	padding: 30px 0 0;
+}
+
+section.second-content .slider .carousel-inner .carousel-item .card-image .text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	padding: 0 20px;
+}
+
+section.second-content .eskul .slider .carousel-inner .carousel-item .card-image .text{
+	padding: 0;
+}
+
+section.second-content .slider .carousel .carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2340514E' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+section.second-content .slider .carousel .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2340514E' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+section.second-content .more{
+	text-align: center;
+	padding-top: 20px;
+}
+
+section.second-content .more a{
+	color: #28166F;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Partner Section */
+section.partner{
+	margin-top: 100px;
+}
+
+section.partner h1.head{
+	text-align: center;
+	font-weight: 700;
+	color: #40514E;
+}
+
+section.partner .image-group{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section.partner .image-group .group{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Copyright */
+footer .copyright{
+	margin-top: 50px;
+	text-align: center;
+	background-color: #28166F;
+	color: #fff;
+	padding: 10px 0;
+	font-weight: 600;
+}
