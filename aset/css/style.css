@@ -291,6 +291,48 @@ section.first-content .right-content .scroll-indicator .scroll i{
 }
 
 
+/* Responsive */
+
+@media screen and (min-width: 300px) and (max-width: 900px){
+	section.first-content{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 100px;
+	}
+
+	section.first-content .left-content{
+		width: 100%;
+	}
+
+	section.first-content .left-content .image img{
+		height: 300px;
+	}
+
+	section.first-content .right-content{
+		width: 100%;
+		text-align: center;
+	}
+
+	section.first-content .right-content .content{
+		padding: 0 10px;
+	}
+
+	section.first-content .right-content .head{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	section.first-content .right-content .head h1{
+		font-size: 24px;
+	}
+
+	section.first-content .right-content .text{
+		font-size: 14px;
+	}
+
+}
+
 
 
 
