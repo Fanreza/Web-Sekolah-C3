@@ -510,8 +510,27 @@ section.partner .image-group .group{
 }
 
 /* Responsive */
+@media screen and (min-width: 300px) and (max-width: 570px){
+	section.partner{
+		margin-top: 100px;
+	}
 
+	section.partner h1.head{
+		text-align: center;
+		font-weight: 700;
+		color: #40514E;
+		font-size: 1.2rem;
+	}
 
+	section.partner .image-group .group .image{
+		width: 20%;
+	}
+
+	section.partner .image-group .group .image img{
+		width: 100%;
+		height: 100%;
+	}
+}
 
 
 
