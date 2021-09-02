@@ -362,7 +362,7 @@ section.jumbotron .right-content .image-column2 img:nth-child(2){
 section.first-content{
 	width: 100%;
 	display: flex;
-	margin-top: 100px;
+	padding-top: 100px;
 }
 
 section.first-content .left-content{
@@ -735,6 +735,10 @@ section.bidang-lengkap{
 	width: 100%;
 }
 
+section.bidang-lengkap *{
+	transition: .5s;
+}
+
 section.bidang-lengkap .content{
 	display: flex;
 	padding-top: 80px;
@@ -807,4 +811,96 @@ section.bidang-lengkap .content:nth-child(even) .right-content .bottom-text{
 
 section.bidang-lengkap .content:nth-child(even) .right-content .bottom-text .fasilitas{
 	display: inline-block;
+}
+
+
+/* Responsive */
+@media screen and (min-width: 300px) and (max-width: 800px){
+	section.bidang-lengkap .content{
+		display: flex;
+		padding-top: 50px;
+	}
+
+	section.bidang-lengkap .content .left-content{
+		padding: 20px;
+		width: 45%;
+	}
+
+	section.bidang-lengkap .content:nth-child(odd) .right-content{
+		padding: 20px;
+		width: 60%;
+	}
+
+	section.bidang-lengkap .content .right-content .head h1{
+		font-weight: 700;
+		color: #2F89FC;
+		font-size: 18px;
+	}
+
+	section.bidang-lengkap .content .right-content .text{
+		font-size: 12px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text h1{
+		font-size: 16px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text .fasilitas{
+		font-size: 12px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text .fasilitas ul{
+		padding: 10px;
+	}
+
+	section.bidang-lengkap .content:nth-child(even) .right-content{
+		padding: 20px;
+		width: 60%;
+	}
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+	section.bidang-lengkap .content{
+		padding-top: 80px;
+	}
+
+	section.bidang-lengkap .content .left-content{
+		width: 50%;
+	}
+
+	section.bidang-lengkap .content:nth-child(odd) .right-content{
+		padding: 30px;
+		width: 50%;
+	}
+
+
+	section.bidang-lengkap .content .right-content .head h1{
+		font-weight: 700;
+		color: #2F89FC;
+		font-size: 24px;
+	}
+
+	section.bidang-lengkap .content .right-content .text{
+		font-size: 14px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text h1{
+		font-size: 22px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text .fasilitas{
+		font-size: 14px;
+	}
+
+	section.bidang-lengkap .content .right-content .bottom-text .fasilitas ul{
+		padding: 10px;
+	}
+
+	section.bidang-lengkap .content:nth-child(even) .right-content{
+		padding: 30px;
+		width: 50%;
+	}
+
 }
