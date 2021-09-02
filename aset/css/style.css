@@ -1208,3 +1208,50 @@ section.kepsek .kepsek  .right-content .name span{
 		font-weight: 800;
 	}
 }
+
+
+@media screen and (min-width: 571px) and (max-width: 900px){
+	section.kepsek .kepsek .left-content .image{
+		padding: 10px;
+	}
+
+	section.kepsek .kepsek  .right-content{
+		padding: 10px;
+	}
+
+	section.kepsek .kepsek  .right-content .text{
+		font-size: 20px;
+	}
+
+	section.kepsek .kepsek  .right-content .name{
+		font-size: 16px;
+		padding-top: 20px;
+	}
+
+	section.kepsek .kepsek  .right-content .name span{
+		font-weight: 800;
+	}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+	section.kepsek .kepsek .left-content .image{
+		padding: 10px;
+	}
+
+	section.kepsek .kepsek  .right-content{
+		padding: 10px;
+	}
+
+	section.kepsek .kepsek  .right-content .text{
+		font-size: 24px;
+	}
+
+	section.kepsek .kepsek  .right-content .name{
+		font-size: 18px;
+		padding-top: 20px;
+	}
+
+	section.kepsek .kepsek  .right-content .name span{
+		font-weight: 800;
+	}
+}
